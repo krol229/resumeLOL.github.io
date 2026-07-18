@@ -7,7 +7,7 @@
     trigger.addEventListener('click', function() {
         isVapor = !isVapor;
         body.classList.toggle('vaporwave', isVapor);
-        statusText.textContent = isVapor ? 'ВАПОРВЕЙВ' : 'БУНКЕР';
+        statusText.textContent = isVapor ? 'ВАПОРВЕЙВ' : 'ОСНОВА';
     });
 
     console.log('%c[SYSTEM] %cПривет, хакер!', 'color: #00FF00; font-size: 18px;', 'color: #FFFFFF; font-size: 15px;');
